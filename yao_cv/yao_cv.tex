@@ -67,7 +67,7 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 % skills section
 \section*{Skills}
 \textbf{Languages:} Python, R, Julia, SQL, MATLAB, Bash \\
-\textbf{Technologies:} pandas, NumPy, SciPy, scikit-learn, PyTorch, Matplotlib, ggplot2, Jupyter
+\textbf{Technologies:} pandas, NumPy, SciPy, scikit-learn, PyTorch, Matplotlib, tidyverse, ggplot2, Jupyter, Git
 
 \vspace{-9pt}
 
@@ -77,7 +77,7 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \textit{Teaching Assistant} \vspace{-9pt} \\
 \begin{itemize}
   \item Lead 30-student recitation sections for EN.553.420 Probability
-  \item Write 20-page review for EN.553.431 Honors Mathematical Statistics: \href{https://github.com/dyao13/EN\_553\_431\_FA24}{github.com/dyao13/EN\_553\_431\_FA24}
+  \item Write 44-page review for EN.553.431 Honors Mathematical Statistics: \href{https://github.com/dyao13/EN\_553\_431\_FA24}{github.com/dyao13/EN\_553\_431\_FA24}
 \end{itemize}
 
 \textbf{McCallion Lab, Johns Hopkins Medicine} \hfill May 2024 – Present \\
@@ -92,13 +92,14 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \textit{Undergraduate Research Assistant} \vspace{-9pt} \\
 \begin{itemize}
   \item Investigated function of fibroblasts to regulate keratinocytes with goal of modifying skin identity in amputees
-  \item Isolated, cultured, and imaged fibroblasts taken from mouse epidermal tissue and analyze images with ImageJ
+  \item Isolated, cultured, and imaged fibroblasts taken from mouse epidermal tissue
+  \item Analyzed fluorescence and brightfield images with ImageJ to quantify tissue identity
 \end{itemize}
 
 \textbf{Onalaska High School} \hfill Sep 2022 – Jan 2023 \\
 \textit{Teaching Assistant} \vspace{-9pt} \\
 \begin{itemize}
-  \item Taught 20-student review sessions and tutored individual students for AP Calulus AB and AP Calculus BC
+  \item Taught 20-student review sessions and tutored individual students for AP Calculus AB and AP Calculus BC
   \item Lectured on extracurrilcular topics such as epsilon-delta and trigonometric substituion
 \end{itemize}
 
@@ -107,7 +108,7 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \begin{itemize}
   \item Investigated the specific roles of CRF1 and CRF2 receptors in stress-induced increase in intestinal permeability
   \item Assayed transcellular and paracellular flux through mucosa/submucosa tissue taken ex vivo from mice
-  \item Performed ANOVA statistical analysis and visualized data in R
+  \item Performed ANOVA statistical analysis and visualized data with ggplot2 in R
 \end{itemize}
 
 \vspace{-18.5pt}
@@ -116,31 +117,31 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \section*{Projects}
 \textbf{Pediatric Sedation Assessment} | \href{https://github.com/dyao13/PedAccel}{github.com/dyao13/PedAccel} \hfill Aug 2024 - Present \vspace{-9pt} \\
 \begin{itemize}
-  \item Develop machine-learning model to calculate sedative dosages for pediatric critical-care patients
-  \item Extract heart-rate variability features from 250 Hz electrocardiogram data in time and frequency domains and analyze nonlinear features with Poincare maps using SciPy, Matplotlib, and neurokit in Python
-  \item Recruit clinical study participants and collect State Behavorial Scale, vitals, and accelerometry data
+  \item Develop machine-learning model to calculate sedative dosages for pediatric critical-care patients in Python
+  \item Optimize existing preprocessing pipeline of 100 GB of ECG data with binary search for a 1,000x speedup
+  \item Extract heart-rate variability features from 250 Hz ECG data in time and frequency domains and analyze nonlinear features with Poincare maps using SciPy, scikit-learn, and neurokit
+  \item Train multiple linear regression model to predict sedation state with ECG features with 85\% accuracy
 \end{itemize}
 
 \textbf{Brawl Stars Draft Engine} | \href{https://github.com/dyao13/BrawlStars}{github.com/dyao13/BrawlStars} \hfill Jul 2024 - Aug 2024 \vspace{-9pt} \\
 \begin{itemize}
   \item Searched for optimal draft of 3 picks out of 82 characters per team via minimax algorithm with alpha-beta pruning to yield a 12\% edge over human players in friendly matches
   \item Optimized weights of individual and pairwise effects in SciPy to estimate win probability with 92\% accuracy
-  \item Computed Nash equilibrium of simultaneous choice of 3 bans per team via linear programming in SciPy
   \item Scraped e-sports games using beautifulsoup4 logged ranked games with BrawlStarsAPI
   \item Employed draft strategies to reach top 1000 global ranking out of 15 million monthly players
 \end{itemize}
 
 \textbf{Patient Referral Scheduler} | \href{https://github.com/dyao13/RefMe}{github.com/dyao13/RefMe} \hfill Jul 2024 - Aug 2024 \vspace{-9pt} \\
 \begin{itemize}
+  \item Granted \$1000 JHU Catalyst Award for early-stage research and development
   \item Optimized scheduling of patient referrals from a stochastic data stream to prioritize high-urgency patients 
   \item Computed solutions via Monte Carlo methods and integer linear programming with lpSolveAPI in R to yield a 25\% improvement over a first-come-first-serve model
-  \item Parallelized across 10 clustered CPUs to improve runtime by 12000x compared to laptop performance
+  \item Parallelized across 10 clustered CPUs to improve runtime by 12,000x compared to laptop performance
 \end{itemize}
 
 \textbf{ARTIS Over-the-Counter Hearing Aids} \hfill Jan 2024 - May 2024 \vspace{-9pt} \\
 \begin{itemize}
-  \item Developed mobile application to match patients to over-the-counter hearing aids backed by VC firm ARTIS
-  \item Trained multiple regression model to map responses to a 25-component questionnaire to hearing aids in Python
+  \item Analyzed profiles and preferences of patients with mild-to-moderate hearing loss with goal to develop a mobile app marketplace for over-the-counter hearing aids backed by venture capital firm ARTIS
   \item Clustered and visualized 3300 audiometric profiles with UMAP, DBSCAN, and ggplot2 in R
 \end{itemize}
 
@@ -148,11 +149,6 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \begin{itemize}
   \item Isolated centroid and areas of 40 cells with Sobel operator in MATLAB to achieve 98\% accuracy compared to manual measurement with ImageJ
   \item Tracked cell movement over time by predicting next position with 4th-order finite difference methods
-\end{itemize}
-
-\textbf{Conway’s Game of Life} | \href{https://github.com/dyao13/conways_game_of_life}{github.com/dyao13/conways\_game\_of\_life} \hfill Jan 2024 \vspace{-9pt} \\
-\begin{itemize}
-  \item Created dynamic GUI application for Conway’s Game of Life with GUIDE in MATLAB with features to import .rle patterns and export .mp4 movies
 \end{itemize}
 
 \vspace{-18.5pt}
@@ -181,6 +177,10 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 
 % awards section
 \section*{Awards}
+\textbf{Catalyst Award (\$1000)}, Johns Hopkins University \hfill Oct 2024 \\
+
+\vspace{5pt}
+
 \textbf{Financial Education Scholarship (\$5000)}, Altra Federal Credit Union \hfill Jun 2023 \\
 
 \vspace{5pt}
