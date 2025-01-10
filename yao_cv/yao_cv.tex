@@ -40,20 +40,17 @@
 
 % education section
 \section*{Education}
-\textbf{Johns Hopkins University} \hfill Baltimore, MD \\
-M.S.E. Applied Mathematics and Statistics \hfill Expected May 2027 \\
-4.00 GPA
-
-\vspace{5pt}
 
 \textbf{Johns Hopkins University} \hfill Baltimore, MD \\
-B.S. Applied Mathematics and Statistics, B.S. Biomedical Engineering \hfill Expected May 2027 \\
+B.S. Applied Mathematics and Statistics, B.S. Computer Science \hfill Expected May 2027 \\
 4.00 GPA, 36 ACT, 1590 SAT
 
 \vspace{-9pt}
 
 % relevant coursework section
 \section*{Relevant Coursework}
+\textbf{Mathematics:} Probability, Mathematical Statistics, Optimization, Numerical Methods, Multivariate Calculus, Linear Algebra, Differential Equations \\
+\textbf{Computer Science:} Data Structures, Algorithms \\
 \textbf{Unofficial Transcript:} \href{https://github.com/dyao13/CV/blob/main/transcript/yao_transcript.pdf}{github.com/dyao13/CV/blob/main/transcript/yao\_transcript.pdf}
 
 \vspace{-9pt}
@@ -66,7 +63,7 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 
 % skills section
 \section*{Skills}
-\textbf{Languages:} Python, R, Julia, SQL, MATLAB, Bash \\
+\textbf{Languages:} Python, Java, R, Julia, MATLAB, HTML/CSS, SQL, Bash \\
 \textbf{Technologies:} pandas, NumPy, SciPy, scikit-learn, PyTorch, Matplotlib, tidyverse, ggplot2, Jupyter, Git
 
 \vspace{-9pt}
@@ -76,14 +73,13 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \textbf{Johns Hopkins University} \hfill Aug 2024 – Present \\
 \textit{Teaching Assistant} \vspace{-9pt} \\
 \begin{itemize}
-  \item Lead 30-student recitation sections for EN.553.420 Probability
-  \item Write 44-page review for EN.553.431 Honors Mathematical Statistics: \href{https://github.com/dyao13/EN\_553\_431\_FA24}{github.com/dyao13/EN\_553\_431\_FA24}
+  \item Lead 30-student weekly recitations for EN.553.420 Probability: \href{https://github.com/dyao13/EN_553_420_SP24}{github.com/dyao13/EN\_553\_420\_SP24}
 \end{itemize}
 
 \textbf{McCallion Lab, Johns Hopkins Medicine} \hfill May 2024 – Present \\
 \textit{Undergraduate Research Assistant} \vspace{-9pt} \\
 \begin{itemize}
-  \item Edit iPS cells with CRISPR Del/Rei to investigate the role of cis-regulatory elements in Parkinson’s Disease
+  \item Edit iPSCs with CRISPR Del/Rei to investigate the role of cis-regulatory elements in Parkinson’s Disease
   \item Design primers with SnapGene and perform PCRs to genotype mice and iPSCs
   \item Analyze scRNA-Seq data with Seurat R package to study transcriptional differences in Parkinson’s-positive mice
 \end{itemize}
@@ -117,10 +113,12 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \section*{Projects}
 \textbf{Pediatric Sedation Assessment} | \href{https://github.com/dyao13/PedAccel}{github.com/dyao13/PedAccel} \hfill Aug 2024 - Present \vspace{-9pt} \\
 \begin{itemize}
-  \item Develop machine-learning model to calculate sedative dosages for pediatric critical-care patients in Python
-  \item Optimize existing preprocessing pipeline of 100 GB of ECG data with binary search for a 1,000x speedup
+  \item Develop statistical model to calculate sedative dosages for pediatric critical-care patients in Python
+  \item Optimize existing preprocessing pipeline of 150 GB of ECG data with binary search for a 1,000x speedup
+  \item Refactor codebase with object-oriented design to improve maintainability and readability
   \item Extract heart-rate variability features from 250 Hz ECG data in time and frequency domains and analyze nonlinear features with Poincare maps using SciPy, scikit-learn, and neurokit
-  \item Train multiple linear regression model to predict sedation state with ECG features with 85\% accuracy
+  \item Create hidden Markov model with hmmlearn to predict sedation-state transitions
+  \item Train ordinal regression model with mord and scikit-learn to predict sedation levels with 90\% accuracy
 \end{itemize}
 
 \textbf{Brawl Stars Draft Engine} | \href{https://github.com/dyao13/BrawlStars}{github.com/dyao13/BrawlStars} \hfill Jul 2024 - Aug 2024 \vspace{-9pt} \\
@@ -133,16 +131,10 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 
 \textbf{Patient Referral Scheduler} | \href{https://github.com/dyao13/RefMe}{github.com/dyao13/RefMe} \hfill Jul 2024 - Aug 2024 \vspace{-9pt} \\
 \begin{itemize}
-  \item Granted \$1000 JHU Catalyst Award for early-stage research and development
-  \item Optimized scheduling of patient referrals from a stochastic data stream to prioritize high-urgency patients 
-  \item Computed solutions via Monte Carlo methods and integer linear programming with lpSolveAPI in R to yield a 25\% improvement over a first-come-first-serve model
+  \item Awarded \$1000 JHU Catalyst Grant for early-stage research and development
+  \item Optimized scheduling of patient referrals from a stochastic data stream to prioritize high-urgency patients in R
+  \item Computed solutions via Monte Carlo methods and integer linear programming to yield a 25\% improvement over a first-come-first-serve model
   \item Parallelized across 10 clustered CPUs to improve runtime by 12,000x compared to laptop performance
-\end{itemize}
-
-\textbf{ARTIS Over-the-Counter Hearing Aids} \hfill Jan 2024 - May 2024 \vspace{-9pt} \\
-\begin{itemize}
-  \item Analyzed profiles and preferences of patients with mild-to-moderate hearing loss with goal to develop a mobile app marketplace for over-the-counter hearing aids backed by venture capital firm ARTIS
-  \item Clustered and visualized 3300 audiometric profiles with UMAP, DBSCAN, and ggplot2 in R
 \end{itemize}
 
 \textbf{Cell Tracker} | \href{https://github.com/dyao13/cell_tracker}{github.com/dyao13/cell\_tracker} \hfill Jan 2024 \vspace{-9pt} \\
@@ -174,29 +166,5 @@ Liu, S., Sargent C., Broman L., \textbf{Yao, D.} (2024). Role of CRF1 and CRF2 R
 \textit{Shift Leader} \hfill Sep 2023 - Present \\
 
 \vspace{-9pt}
-
-% awards section
-\section*{Awards}
-\textbf{Catalyst Award (\$1000)}, Johns Hopkins University \hfill Oct 2024 \\
-
-\vspace{5pt}
-
-\textbf{Financial Education Scholarship (\$5000)}, Altra Federal Credit Union \hfill Jun 2023 \\
-
-\vspace{5pt}
-
-\textbf{Individual Champion}, Wisconsin NAQT Quiz Bowl \hfill Apr 2023 \\
-
-\vspace{5pt}
-
-\textbf{Finalist}, National Merit Scholarship Corporation \hfill Feb 2023 \\
-
-\vspace{5pt}
-
-\textbf{US Presidential Scholars Candidate}, Department of Education \hfill Jan 2023 \\
-
-\vspace{5pt}
-
-\textbf{Perfect AP US Government and Politics Exam}, College Board \hfill Aug 2022
 
 \end{document}
